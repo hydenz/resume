@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  padding-block: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.networking-item,
+.networking-item a {
+  display: flex;
+  flex-direction: column;
+}
+
+.networking-item:not(:first-of-type) {
+  margin-top: 1rem;
+}
+
+.networking-item img {
+  width: 15px;
+}
+
+.resume {
+  display: grid;
+  /* grid-template-columns: 200px 1fr; */
+  /* grid-template-rows: 110px 1fr; */
+
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 130px 1fr;
+  margin-inline: auto;
+  width: 40%;
+  padding-block: 2rem;
+}
+
+.profile-pic {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.header {
+  background: #313c4e;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.header h1 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.header h2 {
+  font-weight: 400;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid white;
+}
+
+.header p {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.picture,
+.aside {
+  padding-inline: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #313c4e;
+  text-transform: uppercase;
+}
+
+.aside,
+.info {
+  margin-top: 2rem;
+}
+
+.info-item {
+  padding-right: 2rem;
+}
+
+.info-item > :not(hr) {
+  margin-left: 1.5rem;
+}
+
+.info-item:not(:first-of-type) {
+  margin-top: 4rem;
+}
+
+.separator {
+  height: 2px;
+  background: #313c4e;
+  border: none;
+}
+
+.info-subtitle {
+  font-weight: 700;
+  margin-top: 1rem;
+  color: #313c4e;
+  font-size: 1.6rem;
+}
+
+.info-name {
+  font-size: 1.6rem;
+}
+
+.location {
+  float: right;
+}
+
+.skills-container {
+  margin-top: 2rem;
+}
+
+.skills {
+  column-gap: 0.6rem;
+  row-gap: 1.6rem;
+  margin-top: 1rem;
+}
+
+.skills span {
+  background: #989da6;
+  color: #fff;
+}
+
+.languages-container {
+  margin-top: 4rem;
+}
+
+.interests-container {
+  margin-top: 3rem;
+}
+
+i {
+  color: #313c4e;
+}
+
+.tasks-list {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.enum-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enum-wrap span {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+.interests {
+  margin-top: 1rem;
+  row-gap: 1rem;
+}
+
+.interests span {
+  border: 1px solid #b2b2b2;
+}
+
+.project-name {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
