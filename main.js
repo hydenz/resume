@@ -11,18 +11,24 @@ function changeLanguage(language) {
   });
 }
 
-document
-  .querySelector("select")
-  .addEventListener("change", (e) => changeLanguage(e.target.value));
+const languageSelect = document.querySelector("select");
+
+languageSelect.addEventListener("change", (e) =>
+  changeLanguage(e.target.value)
+);
+
+const filename = {
+  "en-US": "Marcelo Lima's Resume.pdf",
+  "pt-BR": "Marcelo Lima.pdf",
+};
 
 document.querySelector("button").addEventListener("click", () => {
   const doc = new jsPDF({ unit: "px" });
   doc.setFont("Ubuntu", "normal");
-  console.log(doc.getFontList());
   doc.html(document.querySelector(".resume"), {
     width: 1080,
     windowWidth: 1899,
-    callback: (doc) => doc.save(),
+    callback: (doc) => doc.save(filename[languageSelect.value]),
     html2canvas: {
       width: 1080,
       windowWidth: 1899,
