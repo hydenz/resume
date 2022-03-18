@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
 
+:root {
+  --blue: #313c4e;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +17,6 @@ html {
 
 body {
   min-height: 100vh;
-  padding-block: 1rem;
 }
 
 ul {
@@ -23,6 +26,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+header {
+  background: var(--blue);
+  padding: 1.4rem;
 }
 
 .networking-item,
@@ -41,13 +49,10 @@ a {
 
 .resume {
   display: grid;
-  /* grid-template-columns: 200px 1fr; */
-  /* grid-template-rows: 110px 1fr; */
-
-  grid-template-columns: 220px 1fr;
-  grid-template-rows: 130px 1fr;
+  grid-template-columns: 205px 1fr;
+  grid-template-rows: 126px 1fr;
   margin-inline: auto;
-  width: 40%;
+  width: max-content;
   padding-block: 2rem;
 }
 
@@ -57,47 +62,50 @@ a {
 }
 
 .header {
-  background: #313c4e;
+  background: var(--blue);
   color: #fff;
-  padding: 1.5rem;
+  padding: 1.2rem 1.5rem;
+  width: 580px;
 }
 
 .header h1 {
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3.1rem;
 }
 
 .header h2 {
   font-weight: 400;
   display: inline-block;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.6rem;
   border-bottom: 2px solid white;
 }
 
 .header p {
-  margin-top: 0.8rem;
-  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 15px;
 }
 
 .picture,
 .aside {
-  padding-inline: 2rem;
+  padding-inline: 2.6rem 2rem;
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
-  color: #313c4e;
+  color: var(--blue);
   text-transform: uppercase;
 }
 
 .aside,
 .info {
-  margin-top: 2rem;
+  margin-top: 1.4rem;
 }
 
 .info-item {
-  padding-right: 2rem;
+  padding-right: 3.6rem;
 }
 
 .info-item > :not(hr) {
@@ -105,19 +113,19 @@ a {
 }
 
 .info-item:not(:first-of-type) {
-  margin-top: 4rem;
+  margin-top: 4.1rem;
 }
 
 .separator {
   height: 2px;
-  background: #313c4e;
+  background: var(--blue);
   border: none;
 }
 
 .info-subtitle {
   font-weight: 700;
   margin-top: 1rem;
-  color: #313c4e;
+  color: var(--blue);
   font-size: 1.6rem;
 }
 
@@ -146,14 +154,20 @@ a {
 
 .languages-container {
   margin-top: 4rem;
+  font-size: 1.2rem;
 }
 
 .interests-container {
   margin-top: 3rem;
 }
 
+.networking-item {
+  font-size: 1.2rem;
+}
+
 i {
-  color: #313c4e;
+  color: var(--blue);
+  font-size: 1.1rem;
 }
 
 .tasks-list {
@@ -168,7 +182,7 @@ i {
 
 .enum-wrap span {
   padding: 0.5rem 1rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 5px;
 }
 
@@ -184,4 +198,76 @@ i {
 .project-name {
   margin-top: 1rem;
   font-size: 1.5rem;
+}
+
+.pt {
+  margin-top: 1rem;
+}
+
+.en {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: inherit;
+  margin-left: 1rem;
+}
+
+.btn:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.custom-select {
+  display: inline-block;
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background: #fff url("assets/select-arrows.svg") no-repeat right 0.75rem
+    center;
+  background-size: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .resume {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 1fr;
+  }
+
+  .picture {
+    margin-inline: auto;
+  }
+
+  .header {
+    margin-top: 2rem;
+  }
 }

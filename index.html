@@ -4,52 +4,63 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Marcelo's Resume</title>
   </head>
   <body>
+    <header>
+      <select name="language" class="custom-select">
+        <option value="en-US">English</option>
+        <option value="pt-BR">Português</option>
+      </select>
+      <button class="btn">Download as PDF</button>
+    </header>
     <div class="resume">
       <div class="picture">
         <img src="assets/marcelo.png" alt="" class="profile-pic" />
       </div>
       <div class="header">
         <h1>Marcelo Lima</h1>
-        <h2>Frontend web developer</h2>
-        <p>
+        <h2 data-translate="header-title">Frontend web developer</h2>
+        <p data-translate="header-description">
           Highly motivated, self-taught developer seeking to launch a career
-          building web applications and services
+          building web applications and services.
         </p>
       </div>
       <div class="aside">
         <ul>
           <li class="networking-item">
             <a href="mailto:marcelof_lima@hotmail.com">
-              <img src="assets/email.svg" alt="" />
+              <img src="assets/email.png" alt="" />
               <span>marcelof_lima@hotmail.com</span>
             </a>
           </li>
           <li class="networking-item">
-            <img src="assets/cellphone.svg" alt="" />
-            <span>+55 21 976865226</span>
+            <a href="https://wa.me/5521976865226" target="_blank">
+              <img src="assets/cellphone.png" alt="" />
+              <span>+55 21 976865226</span>
+            </a>
           </li>
           <li class="networking-item">
-            <img src="assets/map-marker.svg" alt="" />
-            <span>Rio de Janeiro, Brazil</span>
+            <img src="assets/map-marker.png" alt="" />
+            <span data-translate="networking-location"
+              >Rio de Janeiro, Brazil</span
+            >
           </li>
           <li class="networking-item">
             <a href="https://www.linkedin.com/in/marcelofldev/" target="_blank">
-              <img src="assets/linkedin.svg" alt="" />
+              <img src="assets/linkedin.png" alt="" />
               <span>linkedin.com/in/marcelofldev</span>
             </a>
           </li>
           <li class="networking-item">
             <a href="https://github.com/hydenz" target="_blank">
-              <img src="assets/github.svg" alt="" />
+              <img src="assets/github.png" alt="" />
               <span>github.com/hydenz</span>
             </a>
           </li>
         </ul>
         <div class="skills-container">
-          <div class="section-title">Skills</div>
+          <div class="section-title" data-translate="skills">Skills</div>
           <hr class="separator" />
           <div class="skills enum-wrap">
             <span>HTML</span>
@@ -63,58 +74,84 @@
           </div>
         </div>
         <div class="languages-container">
-          <div class="section-title">Languages</div>
+          <div class="section-title" data-translate="languages">Languages</div>
           <hr class="separator" />
-          <div>Portuguese</div>
-          <i>Native Proficiency</i>
-          <div>English</div>
-          <i>Professional Working Proficiency</i>
+          <div class="pt" data-translate="languages-pt">Portuguese</div>
+          <i data-translate="languages-native-prof">Native Proficiency</i>
+          <div class="en" data-translate="languages-en">English</div>
+          <i data-translate="languages-prof-prof"
+            >Professional Working Proficiency</i
+          >
         </div>
         <div class="interests-container">
-          <div class="section-title">Interests</div>
+          <div class="section-title" data-translate="interests">Interests</div>
           <hr class="separator" />
           <div class="interests enum-wrap">
-            <span>Cryptocurrencies</span>
-            <span>Stock market</span>
+            <span data-translate="interests-cryptos">Cryptocurrencies</span>
+            <span data-translate="interests-stocks">Stock market</span>
             <span>Videogames</span>
           </div>
         </div>
       </div>
       <div class="info">
         <div class="info-item">
-          <span class="section-title">Education</span>
+          <span class="section-title" data-translate="education"
+            >Education</span
+          >
           <hr class="separator" />
-          <div class="info-subtitle">Automation Engineering</div>
+          <div class="info-subtitle" data-translate="education-graduation-name">
+            Automation Engineering
+          </div>
           <div class="info-name">CEFET RJ</div>
           <div>
-            <i class="date">01/2019 - Present</i>
+            <i class="date" data-translate="education-graduation-date"
+              >01/2019 - Present</i
+            >
             <i class="location">Rio de Janeiro</i>
           </div>
         </div>
         <div class="info-item">
-          <span class="section-title">Work Experience</span>
+          <span class="section-title" data-translate="work-exp"
+            >Work Experience</span
+          >
           <hr class="separator" />
-          <div class="info-subtitle">Frontend developer</div>
+          <div class="info-subtitle" data-translate="work-exp-3-title">
+            Frontend developer
+          </div>
           <div class="info-name">Personetics</div>
           <div>
-            <i class="date">11/2021 - Present</i>
-            <i class="location">Tel Aviv (remote)</i>
+            <i class="date" data-translate="work-exp-3-date"
+              >11/2021 - Present</i
+            >
+            <i class="location" data-translate="work-exp-3-location"
+              >Tel Aviv (remote)</i
+            >
           </div>
-          <div class="info-subtitle">Frontend development intern</div>
+          <div class="info-subtitle" data-translate="work-exp-2-title">
+            Frontend development intern
+          </div>
           <div class="info-name">Nodis Stone Co.</div>
           <div>
             <i class="date">08/2021 - 11/2021</i>
-            <i class="location">Rio de Janeiro (remote)</i>
+            <i class="location" data-translate="work-exp-2-location"
+              >Rio de Janeiro (remote)</i
+            >
           </div>
-          <div class="info-subtitle">Software development intern</div>
+          <div class="info-subtitle" data-translate="work-exp-1-title">
+            Software development intern
+          </div>
           <div class="info-name">Grow up Marketing Digital</div>
           <div>
             <i class="date">05/2021 - 08/2021</i>
-            <i class="location">Rio de Janeiro (presential)</i>
+            <i class="location" data-translate="work-exp-1-location"
+              >Rio de Janeiro (presential)</i
+            >
           </div>
         </div>
         <div class="info-item">
-          <span class="section-title">Personal Projects</span>
+          <span class="section-title" data-translate="personal-projects"
+            >Personal Projects</span
+          >
           <hr class="separator" />
           <div class="project-name">Todo App</div>
           <a href="https://hydenz.github.io/todo-app/" target="_blank"
@@ -132,5 +169,8 @@
       </div>
     </div>
     <script type="module" src="/main.js"></script>
+    <script type="module" src="/Ubuntu-Regular-normal.js"></script>
+    <script type="module" src="/Ubuntu-Bold-normal.js"></script>
+    <script type="module" src="/Ubuntu-Italic-normal.js"></script>
   </body>
 </html>

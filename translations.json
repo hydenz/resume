@@ -1,0 +1,74 @@
+{
+  "header-title": {
+    "en-US": "Frontend web developer",
+    "pt-BR": "Desenvolvedor Frontend"
+  },
+  "header-description": {
+    "en-US": "Highly motivated, self-taught developer seeking to launch a career building web applications and services",
+    "pt-BR": "Desenvolvedor autodidata buscando lançar uma carreira na área de tecnologia construindo aplicações e serviços web"
+  },
+  "networking-location": {
+    "en-US": "Rio de Janeiro, Brazil",
+    "pt-BR": "Rio de Janeiro, Brasil"
+  },
+  "skills": { "en-US": "Skills", "pt-BR": "Habilidades" },
+  "languages": { "en-US": "Languages", "pt-BR": "Línguas" },
+  "languages-pt": { "en-US": "Portuguese", "pt-BR": "Português" },
+  "languages-en": { "en-US": "English", "pt-BR": "Inglês" },
+  "languages-native-prof": {
+    "en-US": "Native Proficiency",
+    "pt-BR": "Proficiência nativa"
+  },
+  "languages-prof-prof": {
+    "en-US": "Professional Working Proficiency",
+    "pt-BR": "Proficiência profissional"
+  },
+  "interests": { "en-US": "Interests", "pt-BR": "Interesses" },
+  "interests-cryptos": { "en-US": "Cryptocurrencies", "pt-BR": "Criptomoedas" },
+  "interests-stocks": { "en-US": "Stock market", "pt-BR": "Mercado de ações" },
+  "education": { "en-US": "Education", "pt-BR": "Educação" },
+  "education-graduation-name": {
+    "en-US": "Automation Engineering",
+    "pt-BR": "Engenharia de Controle e Automação"
+  },
+  "education-graduation-date": {
+    "en-US": "01/2019 - Present",
+    "pt-BR": "01/2019 - Presente"
+  },
+  "work-exp": {
+    "en-US": "Work Experience",
+    "pt-BR": "Experiências profissionais"
+  },
+  "work-exp-3-title": {
+    "en-US": "Frontend developer",
+    "pt-BR": "Desenvolvedor Frontend"
+  },
+  "work-exp-3-date": {
+    "en-US": "11/2021 - Present",
+    "pt-BR": "11/2021 - Presente"
+  },
+  "work-exp-3-location": {
+    "en-US": "Tel Aviv (remote)",
+    "pt-BR": "Tel Aviv (remoto)"
+  },
+  "work-exp-2-title": {
+    "en-US": "Frontend development intern",
+    "pt-BR": "Estagiário de desenvolvimento frontend"
+  },
+  "work-exp-2-location": {
+    "en-US": "Rio de Janeiro (remote)",
+    "pt-BR": "Rio de Janeiro (remoto)"
+  },
+  "work-exp-1-title": {
+    "en-US": "Software development intern",
+    "pt-BR": "Estagiário de desenvolvimento de software"
+  },
+  "work-exp-1-location": {
+    "en-US": "Rio de Janeiro (presential)",
+    "pt-BR": "Rio de Janeiro (presencial)"
+  },
+  "personal-projects": {
+    "en-US": "Personal Projects",
+    "pt-BR": "Projetos Pessoais"
+  }
+}
