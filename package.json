@@ -11,8 +11,6 @@
     "vite": "^2.8.0"
   },
   "dependencies": {
-    "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.1",
-    "svg2pdf.js": "^2.2.0"
+    "jspdf": "^2.5.1"
   }
 }
