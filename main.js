@@ -1,6 +1,5 @@
-import { jsPDF } from "jspdf";
-import "./style.css";
-import translations from "./translations.json";
+import { jsPDF } from 'jspdf';
+import translations from './translations.json';
 
 function changeLanguage(language) {
   const elements = Array.from(document.querySelectorAll("[data-translate]"));
