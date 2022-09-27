@@ -39,13 +39,21 @@
     "en-US": "Work Experience",
     "pt-BR": "Experiências profissionais"
   },
-  "work-exp-3-title": {
-    "en-US": "Frontend developer",
-    "pt-BR": "Desenvolvedor Frontend"
+  "work-exp-4-title": {
+    "en-US": "Frontend developer (React)",
+    "pt-BR": "Desenvolvedor Frontend (React)"
   },
-  "work-exp-3-date": {
-    "en-US": "11/2021 - Present",
-    "pt-BR": "11/2021 - Presente"
+  "work-exp-4-location": {
+    "en-US": "Colorado (remote)",
+    "pt-BR": "Colorado (remoto)"
+  },
+  "work-exp-4-date": {
+    "en-US": "07/2022 - Present",
+    "pt-BR": "07/2022 - Presente"
+  },
+  "work-exp-3-title": {
+    "en-US": "Frontend developer (React)",
+    "pt-BR": "Desenvolvedor Frontend (React)"
   },
   "work-exp-3-location": {
     "en-US": "Tel Aviv (remote)",
