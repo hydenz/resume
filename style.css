@@ -50,14 +50,14 @@ header {
 .resume {
   display: grid;
   grid-template-columns: 205px 1fr;
-  grid-template-rows: 126px 1fr;
+  grid-template-rows: max-content 1fr;
   margin-inline: auto;
   width: max-content;
   padding-block: 2rem;
 }
 
 .profile-pic {
-  height: 100%;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -83,8 +83,13 @@ header {
 
 .header p {
   margin-top: 1rem;
-  font-size: 1.2rem;
-  line-height: 15px;
+  font-size: 1.6rem;
+  line-height: 20px;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
 }
 
 .picture,
@@ -127,6 +132,11 @@ header {
   margin-top: 1rem;
   color: var(--blue);
   font-size: 1.6rem;
+}
+
+.info-description {
+  font-size: 1.5rem;
+  max-width: 70ch;
 }
 
 .info-name {
@@ -264,10 +274,17 @@ i {
   }
 
   .picture {
-    margin-inline: auto;
+    width: 100%;
+  }
+
+  .profile-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
   }
 
   .header {
     margin-top: 2rem;
+    width: 100%;
   }
 }
