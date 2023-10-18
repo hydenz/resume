@@ -1,224 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      type="image/png"
-      sizes="16x16"
-      rel="icon"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABmJLR0QA/wD/AP+gvaeTAAAA2UlEQVQokZ2RzQqCQBRGr2HIQBoibgahldQ+hd6iZ+0timqfhUSgEsUoqDGmZi0MUTB/+jazuWfOd2cY0zShT9j8cJ5oH0oNc/MRwRwFgEGv62uAjeFe7rS9UhHDDoGBiYxsl+6OHgBgCemqWA+QIJbHXJJmafYW0HCq8AAgoMpMpdL5+oiTF/Hjmxd1qqSpolayzxS+BXAI9WlaBg5WICAWS6i+UpdUDLYbOeT7pssFBgDDCrCEyoYKoKsilHYosJ+G7ckrDPn0au00/UMXw79LY45izuoCfACLTkz4BmK//wAAAABJRU5ErkJggg=="
-    />
-    <link
-      type="image/png"
-      sizes="32x32"
-      rel="icon"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABmJLR0QA/wD/AP+gvaeTAAABmUlEQVRIiWO8e/cuAy0BE01NZ2BgYEHjn/0s/OwXJ9nGSbF9N+Z9iyxCcx8Mewv+/v1//+XXL9//kG0BeiSjgXXHn9578ZWdlTnFTYGHk4Bicix4+vY7AwPDz99/X3/6Bbdg44lnN558RlbmbyGlIcNLjgU2WiJHrr2REeaUF0WkXVNVQXVU46SFcaZsAhaoSvEK8bJxczAzMCIEpYQ5pfBrI8aCv//+7zz/8sqDj///MzAwMIjyswdZSgvwsDIwMJy+/f7Z2+/Iik3UBKWFsHsCZyq6+/zr5ftQ0xkYGF5//Hno6hui3Y0AOH0gKcThb4ESEnywSDZVFWRQFaTUAl5OFlwJgyQw0DmZcoAziJ6++37m1ntcspDo2XjiGYRLTiqiFsDpA2khTmkLAjUPWjIjzYLP3/88Rc1NEICctOAlkrQwJy+OohB3HLz9Dg9iFAtC1OFsuAI8hR0jWqti6NXJOIPoxpPPWIMIAspD1BkYGDrX3IRwyakPpIU5CSYSuAJy6gNiyiJiCquhXxbR3AL0fEB1QHMfAACZB34WaqzsAwAAAABJRU5ErkJggg=="
-    />
-    <link
-      type="image/png"
-      sizes="96x96"
-      rel="icon"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAABmJLR0QA/wD/AP+gvaeTAAACvElEQVR4nO3b20/TUADH8U5URjYv3TCuSvRhhDFIfIMESEj8A3zS/8W/wb9EH4wh8Q/wlggke5uGy1iQ2wbM0aEtK7t0PpgsCOl+bXOOO+Lv8wZtd5rvzrrTJosUi0WNvF3p9wmojoEABgIYCGAg4GrQA95WR2Scx1/zJLkbaH/OIICBAAYCGAhgIICBAAYCGAhgIICBAAYCGAhgICDw3XxQhZKVK5hl09E0zdAHp8cSaSMue1CB5AZ6n68srx11/9yu1LcrezPZ5PzksNRxBZL4ESuUrLN1uhZXqhtlW964YkkMlCuYnpvWq/LGFUviR2zfdLw2lc1TP6/w4vVaiHGfP8uEOMpLf77FIpG+DBuGxEApfdBz0+2ovHHFkhhoeizhtWkq47lJNRKvQWkjPpNNLq6cvx7PZpPpVMzPK4i9moQjdx00Pzl8LzGUW6/+viobenQqk/BZRxHSV9KjRmzU+JeKnMN7MUDiDDo+aa7u/Nw6tE2raTttTdNi0QE9fu3h3fj4/Ru3YtInrxBSzrJ+2nqX//5164fb6Zz9f812a3Zz8+Dk05fKxIObjx/dGbo+IOMEBBIfqHxUf/N5z3LaPfZpu538t+PNfevp3EhK91wTXcKV9IHpvPq427tOl+W0X37YOaz5uu3oF8GBFpZLjZbrf/9Gy11YKok9B7EEB6pZzaCHmFZD7DmIpfRXiQoraa6DAMEzSIX3XCzOIICBAAYCGAhgIICBAAYCGAhgIICBAAYCBN+LhXsG2NvF+7veoyj9RPHyYSCAgYBI0N/N8xeH9AcGAhgIYCCAgQDlVtJ+1sFcSSuEgQAGAriSBjiDAAYCGAhgIICBAOVW0hfxmbTSGAhgIIAraYAzCGAggIEABgIYCGAggIEABgIYCGAggIEABgIYCAh8N/+/4QwCGAhgIICBAAYCfgH3icLidw57hgAAAABJRU5ErkJggg=="
-    />
-    <title>Marcelo's Resume</title>
-    
-    <script type="module" crossorigin src="./assets/index.70ec91d1.js"></script>
-    <link rel="stylesheet" href="./assets/index.a9647083.css">
-  </head>
-  <body>
-    <header>
-      <select name="language" class="custom-select">
-        <option value="en-US">English</option>
-        <option value="pt-BR">Português</option>
-      </select>
-      <button class="btn">Download as PDF</button>
-    </header>
-    <div class="resume">
-      <div class="picture">
-        <img src="./assets/marcelo.f1d7e654.png" alt="" class="profile-pic" />
-      </div>
-      <div class="header">
-        <h1>Marcelo Lima</h1>
-        <h2 data-translate="header-title">Frontend web developer</h2>
-        <p data-translate="header-description">
-          As a React Developer, I prioritize teamwork and code quality to
-          deliver high-performing software solutions. I have a keen eye for
-          detail and am committed to producing maintainable, scalable, and
-          optimized code. With strong communication skills and the ability to
-          work collaboratively in team environments, I am well-equipped to
-          deliver successful projects that exceed client expectations.
-        </p>
-      </div>
-      <div class="aside">
-        <ul>
-          <li class="networking-item">
-            <a href="mailto:marcelof_lima@hotmail.com">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAABjUlEQVRo3u2YPU7EMBBGH0uHBPSIQAeUqbgFiAZKSq7AFbgCLR1ICyttRcEBqLgCuxJUCJQgOhAU2UhZ48Q/cXAk5knTJLbzffZMbBkEQRAE4Tc7wAjIge/IkQPXwJaL+LceCFfj1dbEqAdi62Koil3QGMiBZdvl+mNyYLX6YKBppIrfByYRxD4DR8qzFZuO6rIBLAFnwCfdp8kXcF6ZSJ0eZwMlKXDfofgHYNdBj7MBKNLuBMgCCv8AToFFDz3GDmNgU9NuDbgIIH4MbNSMfxXCgGmG9oBHD+FPwGHDCtdtol4GmnIU3IpcLdIqKeYaa2WgKkD3SzMJCDEBrQ1UU+BY019X5KYUnDh8N5iBMm6ARDNOMntneu/6veAGTDNct0K+J91ODJhyvCSl/UbYqYG6Ig95FOncQBlT4GAW04DjzqE7Tlu5jMic5oHvKH1BDMRGDMRGDMRGDMRGZ+A9tqgGMhsDd7FVNnBr02ib4iI11OErVLwA67ZOE4orjZB3P76RAZcu4gVBEIT/ww9c/0sh64S8OgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMy0xOFQxODo0MDo1MyswMDowMHvyKLcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDMtMThUMTg6NDA6NTMrMDA6MDAKr5ALAAAAAElFTkSuQmCC" alt="" />
-              <span>marcelof_lima@hotmail.com</span>
-            </a>
-          </li>
-          <li class="networking-item">
-            <a href="https://wa.me/5521976865226" target="_blank">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAyElEQVRo3u2ZMQrCQBREn+IxtFWvrqCktciNRDEeIBbBRhR23fwdFubBLxPm7c82GTBtsQc6YADGmWcAzsA2Mvw9IPjn3KIkugrh33OKEIj4bH7NIzXUIkNgjDiV0mzLyqFmxwJqVgXP5tyfFP66Y81vwAJqLKDGAmosoMYCaiygxgJqLKDGAmosoMYCaiygxgJqSv6N1u4LvtL8BiygJkfgWTFXcsmXI9BXFLhEvHTHVEJHV6xXYB11MhvgyLTiiG74EBneRPACfBqgo8krJMIAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMThUMTg6NDI6MjIrMDA6MDDTtfonAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTE4VDE4OjQyOjIyKzAwOjAwouhCmwAAAABJRU5ErkJggg==" alt="" />
-              <span>+55 21 976865226</span>
-            </a>
-          </li>
-          <li class="networking-item">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAACFUlEQVRo3u2ZQUsbQRTHfxEqqBHPgpdQT9JDTcV6UNooJKCFHirtl/BkDkLwUHrQr6BfwYux7bURPFhCoDcx0oIHL61oS8jJpBAPk0AQu3mzmbfT0v3Du2xm3/z+szuTmbcQK9b/rYTjXGngJbAAjAMT7d8ugO/AEXAAfPFt/C74a+AMaAmjCqw6HsBQegiULcDvxmcg5Qt+HvjRB3wnroDFqOEzQMMBfCdugGdRwaeAS4fw3U9iUhs+QX/vfK84Rnliv1GE78QrzdG3WSrDxqmWgScWEEXMpBxpx3PgvcX90xoG3gk73wjIURDmeKth4FA48r30QZDnk4YByfsvWcszgjxVDQN1QcdJQZ5RQZ66FGrAwoBN2yBJ1nnxf4EN1JWgzYyjNtcaBr4J2qw7aiPpy1rbyJbAQkCOTWGObQ0DOWHnLcxSmcFM6iRmu/zR4v6choEHwE8LiLDxCxiUQtnMgSbmPKutfcxZQ0Vz6D+Bp9ojVFGEr2jDA6woGliOwgCYk5Nr+DIRllmWFAxEXpkoOYQvRQ0P8Ag3pZUm8NiHAZBvL4Jiyxc8wBBm4xUW/hxzZvaqbB8Gsr7hO9oNAb/jG7pbw5h6jhT+K7LjZ6RKY4q0veAbwKxv2D8pLzCQ9w0ZpASwFwBf5C/4KtNLSeDkHvgzYMw3nFRTQK0Lvta+9k8ph9km/AZe+IYJq7V2xIoVS0m3LOha/PM/J4sAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMThUMTg6NDI6MzgrMDA6MDC7b6X3AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTE4VDE4OjQyOjM4KzAwOjAwyjIdSwAAAABJRU5ErkJggg==" alt="" />
-            <span data-translate="networking-location"
-              >Rio de Janeiro, Brazil</span
-            >
-          </li>
-          <li class="networking-item">
-            <a
-              href="https://www.linkedin.com/in/marcelofldev/?locale=en_US"
-              target="_blank"
-            >
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAABzUlEQVRo3u2ZP0vDQBiHn1QFsf6ZCg624FQcdHFxF2cnRRB0ctLFpV/AT+CsfgAlKDoIDo7dBBe/gJMoKiYiimDrcCmU4y7k0phL5R64oW/f3P1+d+9dmgYcDoejyFQBHwiBds4tBM6Aei/iXywIl9trpMUYvwDiO+1EJ9KLMRACY2mXL2NCYMLUQFsTOwWaQAVYB2o5mfBML5CXsQWsSDnjkZk8ysgYuQNfkzdr00DJwFBTE78DgjQzlAUmBiqa+AgwastAHPIS3iNqXmaXPtkDbUQZzUXflyPxXzYNmB6jHQJE2QykmZmUeImDCQzYQKnVZBNnyQ/wCHz32tGgYf6SIrYKbHV9bgC3Uk4NOEIcuXvABWLvlIAFYAdYI8XdNo6kG6kh5SwqcmYQP8iGY8ZbBj4w3MR5ldADsImYdR3nUY4ReRl4Az4T5PnAZRENgKjvDeAAUXZlTd5hVgNmuQcA9qW8G2BIkTdpMHZuK1AGtqXYPOpT7cmk47wMVFHftacVsVYRDXiG8cIZ+DOcAds4A7ZxBmzT9wb+9SPlu23FXWj/OIszcG1bdRdXaS6qI14u2H438AxMpXVeRTzLBhaEB8BxL+IdDofj7/kFEdlqEqmzKegAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMThUMTg6NDI6NDcrMDA6MDBH4twHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTE4VDE4OjQyOjQ3KzAwOjAwNr9kuwAAAABJRU5ErkJggg==" alt="" />
-              <span>linkedin.com/in/marcelofldev</span>
-            </a>
-          </li>
-          <li class="networking-item">
-            <a href="https://github.com/hydenz" target="_blank">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAADIklEQVRo3u2Y20tUQRzHPyrdzFKoxUv5WlGhkCX10JUgejQquzxE/0IQRBYVBAoSJSZmvfYqFpQEQXSBoCihx+olSreLRmDXLWt7mFl2nT0zZ845c45B+4UB2d+c7+/7nRln5jdQQgn/N8oc8VQArcBWoAVYAdQDVTL+BUgDz4GnwB3gMfBnpgegEegCRoFswPYG6ASWzoTwFDAAZEIIV1sG6AcWJyX+APDRgXC1TQD74hQ+C7gSg3C1XZK5nKISGE5AfK7dlDmdjXyS4nPtNjDbhYEklo2u9UcVf1BDfAHYBfQB7yMIfAdclFw9mj7tYcWn0O82Kwv6zQM6gM8yNoU4sB4ilt6w/PuFjGVl3w75bQ6rNLnGgUVhDAxoCL9p+jcAG8mfvl6okn0aNPHvmpx9QcU3oj+kJsKMhiV0M/6DgCd2F/p1+5vpU+8KlZJbl7fTlqgC/7tNUwwGmnxyvgbKbYg2+BANxCA+h8s+uVttSI4bCCYJuSNYIkV+N/Nqx9QPvKZkrSHBEOIfLS6MA9cN8RYbA8sMBPdiFJ/DXUNsuY2BegPBWAIGRg2xIm1eBkwH0UxjgY2BKQNBElVTyhAr0uZlwHTS1iVgwLSEi7R5GRg3EGxKwMBmQ+yDjYFXBoJtOKyUPDAf2GKIF2nzMvDAQFAFHInRwFHMA3TfhqQZ83E+CayOQXwz4gEs8h2sHPHoZCJKy4SusAZRnTm5zAGcUD7+BLxUfssAZ4HaCMKXAN3ALx/xWcQdzRq1TC9oeuXv6xDlomrkFuKitRNYaOCtAdqAk4j3URvhWUSlZjofPNGrkFxF1AqN6Av5Z8BcA+ccYMRStPqIEBjViLVeSHRGxnaQL9AL22EL3vaA4sd8ZtWIPQrZV/Kn8XbgEfATccDcwG6aGwIa2B1WfA7nFMLzEfkqAojvjioexNY1VEA6BRyKyGkjfpAA26YfKoFrSoJhYD+wHlEptTk0MEgMLx9lwGmfxC4M9OBw5L2wl+LdyYWBNGLTSAQ1iOc+9fUujIEM4oG3OinxhagDTiFG70mA70aAt4glmUSRVEIJJfyr+AubsTWHiHv2sgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMy0xOFQxODo0Mjo1NSswMDowMBzXzbAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDMtMThUMTg6NDI6NTUrMDA6MDBtinUMAAAAAElFTkSuQmCC" alt="" />
-              <span>github.com/hydenz</span>
-            </a>
-          </li>
-        </ul>
-        <div class="skills-container">
-          <div class="section-title" data-translate="skills">Skills</div>
-          <hr class="separator" />
-          <div class="skills enum-wrap">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Javascript</span>
-            <span>Typescript</span>
-            <span>React</span>
-            <span>Python</span>
-            <span>REST APIs</span>
-            <span>Relational Databases</span>
-          </div>
-        </div>
-        <div class="languages-container">
-          <div class="section-title" data-translate="languages">Languages</div>
-          <hr class="separator" />
-          <div class="pt" data-translate="languages-pt">Portuguese</div>
-          <i data-translate="languages-native-prof">Native Proficiency</i>
-          <div class="en" data-translate="languages-en">English</div>
-          <i data-translate="languages-prof-prof"
-            >Professional Working Proficiency</i
-          >
-        </div>
-        <div class="interests-container">
-          <div class="section-title" data-translate="interests">Interests</div>
-          <hr class="separator" />
-          <div class="interests enum-wrap">
-            <span data-translate="interests-cryptos">Cryptocurrencies</span>
-            <span data-translate="interests-stocks">Stock market</span>
-            <span>Videogames</span>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="image/png" sizes="16x16" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABmJLR0QA/wD/AP+gvaeTAAAA2UlEQVQokZ2RzQqCQBRGr2HIQBoibgahldQ+hd6iZ+0timqfhUSgEsUoqDGmZi0MUTB/+jazuWfOd2cY0zShT9j8cJ5oH0oNc/MRwRwFgEGv62uAjeFe7rS9UhHDDoGBiYxsl+6OHgBgCemqWA+QIJbHXJJmafYW0HCq8AAgoMpMpdL5+oiTF/Hjmxd1qqSpolayzxS+BXAI9WlaBg5WICAWS6i+UpdUDLYbOeT7pssFBgDDCrCEyoYKoKsilHYosJ+G7ckrDPn0au00/UMXw79LY45izuoCfACLTkz4BmK//wAAAABJRU5ErkJggg==" />
+  <link type="image/png" sizes="32x32" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABmJLR0QA/wD/AP+gvaeTAAABmUlEQVRIiWO8e/cuAy0BE01NZ2BgYEHjn/0s/OwXJ9nGSbF9N+Z9iyxCcx8Mewv+/v1//+XXL9//kG0BeiSjgXXHn9578ZWdlTnFTYGHk4Bicix4+vY7AwPDz99/X3/6Bbdg44lnN558RlbmbyGlIcNLjgU2WiJHrr2REeaUF0WkXVNVQXVU46SFcaZsAhaoSvEK8bJxczAzMCIEpYQ5pfBrI8aCv//+7zz/8sqDj///MzAwMIjyswdZSgvwsDIwMJy+/f7Z2+/Iik3UBKWFsHsCZyq6+/zr5ftQ0xkYGF5//Hno6hui3Y0AOH0gKcThb4ESEnywSDZVFWRQFaTUAl5OFlwJgyQw0DmZcoAziJ6++37m1ntcspDo2XjiGYRLTiqiFsDpA2khTmkLAjUPWjIjzYLP3/88Rc1NEICctOAlkrQwJy+OohB3HLz9Dg9iFAtC1OFsuAI8hR0jWqti6NXJOIPoxpPPWIMIAspD1BkYGDrX3IRwyakPpIU5CSYSuAJy6gNiyiJiCquhXxbR3AL0fEB1QHMfAACZB34WaqzsAwAAAABJRU5ErkJggg==" />
+  <link type="image/png" sizes="96x96" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAABmJLR0QA/wD/AP+gvaeTAAACvElEQVR4nO3b20/TUADH8U5URjYv3TCuSvRhhDFIfIMESEj8A3zS/8W/wb9EH4wh8Q/wlggke5uGy1iQ2wbM0aEtK7t0PpgsCOl+bXOOO+Lv8wZtd5rvzrrTJosUi0WNvF3p9wmojoEABgIYCGAg4GrQA95WR2Scx1/zJLkbaH/OIICBAAYCGAhgIICBAAYCGAhgIICBAAYCGAhgICDw3XxQhZKVK5hl09E0zdAHp8cSaSMue1CB5AZ6n68srx11/9yu1LcrezPZ5PzksNRxBZL4ESuUrLN1uhZXqhtlW964YkkMlCuYnpvWq/LGFUviR2zfdLw2lc1TP6/w4vVaiHGfP8uEOMpLf77FIpG+DBuGxEApfdBz0+2ovHHFkhhoeizhtWkq47lJNRKvQWkjPpNNLq6cvx7PZpPpVMzPK4i9moQjdx00Pzl8LzGUW6/+viobenQqk/BZRxHSV9KjRmzU+JeKnMN7MUDiDDo+aa7u/Nw6tE2raTttTdNi0QE9fu3h3fj4/Ru3YtInrxBSzrJ+2nqX//5164fb6Zz9f812a3Zz8+Dk05fKxIObjx/dGbo+IOMEBBIfqHxUf/N5z3LaPfZpu538t+PNfevp3EhK91wTXcKV9IHpvPq427tOl+W0X37YOaz5uu3oF8GBFpZLjZbrf/9Gy11YKok9B7EEB6pZzaCHmFZD7DmIpfRXiQoraa6DAMEzSIX3XCzOIICBAAYCGAhgIICBAAYCGAhgIICBAAYCBN+LhXsG2NvF+7veoyj9RPHyYSCAgYBI0N/N8xeH9AcGAhgIYCCAgQDlVtJ+1sFcSSuEgQAGAriSBjiDAAYCGAhgIICBAOVW0hfxmbTSGAhgIIAraYAzCGAggIEABgIYCGAggIEABgIYCGAggIEABgIYCAh8N/+/4QwCGAhgIICBAAYCfgH3icLidw57hgAAAABJRU5ErkJggg==" />
+  <title>Marcelo's Resume</title>
+  
+  <script type="module" crossorigin src="./assets/index.3010b34e.js"></script>
+  <link rel="stylesheet" href="./assets/index.a9647083.css">
+</head>
+
+<body>
+  <header>
+    <select name="language" class="custom-select">
+      <option value="en-US">English</option>
+      <option value="pt-BR">Português</option>
+    </select>
+    <button class="btn">Download as PDF</button>
+  </header>
+  <div class="resume">
+    <div class="picture">
+      <img src="./assets/marcelo.f1d7e654.png" alt="" class="profile-pic" />
+    </div>
+    <div class="header">
+      <h1>Marcelo Lima</h1>
+      <h2 data-translate="header-title">Frontend web developer</h2>
+      <p data-translate="header-description">
+        As a React Developer, I prioritize teamwork and code quality to
+        deliver high-performing software solutions. I have a keen eye for
+        detail and am committed to producing maintainable, scalable, and
+        optimized code. With strong communication skills and the ability to
+        work collaboratively in team environments, I am well-equipped to
+        deliver successful projects that exceed client expectations.
+      </p>
+    </div>
+    <div class="aside">
+      <ul>
+        <li class="networking-item">
+          <a href="mailto:marcelof_lima@hotmail.com">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAABjUlEQVRo3u2YPU7EMBBGH0uHBPSIQAeUqbgFiAZKSq7AFbgCLR1ICyttRcEBqLgCuxJUCJQgOhAU2UhZ48Q/cXAk5knTJLbzffZMbBkEQRAE4Tc7wAjIge/IkQPXwJaL+LceCFfj1dbEqAdi62Koil3QGMiBZdvl+mNyYLX6YKBppIrfByYRxD4DR8qzFZuO6rIBLAFnwCfdp8kXcF6ZSJ0eZwMlKXDfofgHYNdBj7MBKNLuBMgCCv8AToFFDz3GDmNgU9NuDbgIIH4MbNSMfxXCgGmG9oBHD+FPwGHDCtdtol4GmnIU3IpcLdIqKeYaa2WgKkD3SzMJCDEBrQ1UU+BY019X5KYUnDh8N5iBMm6ARDNOMntneu/6veAGTDNct0K+J91ODJhyvCSl/UbYqYG6Ig95FOncQBlT4GAW04DjzqE7Tlu5jMic5oHvKH1BDMRGDMRGDMRGDMRGZ+A9tqgGMhsDd7FVNnBr02ib4iI11OErVLwA67ZOE4orjZB3P76RAZcu4gVBEIT/ww9c/0sh64S8OgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMy0xOFQxODo0MDo1MyswMDowMHvyKLcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDMtMThUMTg6NDA6NTMrMDA6MDAKr5ALAAAAAElFTkSuQmCC" alt="" />
+            <span>marcelof_lima@hotmail.com</span>
+          </a>
+        </li>
+        <li class="networking-item">
+          <a href="https://wa.me/5521976865226" target="_blank">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAAAyElEQVRo3u2ZMQrCQBREn+IxtFWvrqCktciNRDEeIBbBRhR23fwdFubBLxPm7c82GTBtsQc6YADGmWcAzsA2Mvw9IPjn3KIkugrh33OKEIj4bH7NIzXUIkNgjDiV0mzLyqFmxwJqVgXP5tyfFP66Y81vwAJqLKDGAmosoMYCaiygxgJqLKDGAmosoMYCaiygxgJqSv6N1u4LvtL8BiygJkfgWTFXcsmXI9BXFLhEvHTHVEJHV6xXYB11MhvgyLTiiG74EBneRPACfBqgo8krJMIAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMThUMTg6NDI6MjIrMDA6MDDTtfonAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTE4VDE4OjQyOjIyKzAwOjAwouhCmwAAAABJRU5ErkJggg==" alt="" />
+            <span>+55 21 976865226</span>
+          </a>
+        </li>
+        <li class="networking-item">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAACFUlEQVRo3u2ZQUsbQRTHfxEqqBHPgpdQT9JDTcV6UNooJKCFHirtl/BkDkLwUHrQr6BfwYux7bURPFhCoDcx0oIHL61oS8jJpBAPk0AQu3mzmbfT0v3Du2xm3/z+szuTmbcQK9b/rYTjXGngJbAAjAMT7d8ugO/AEXAAfPFt/C74a+AMaAmjCqw6HsBQegiULcDvxmcg5Qt+HvjRB3wnroDFqOEzQMMBfCdugGdRwaeAS4fw3U9iUhs+QX/vfK84Rnliv1GE78QrzdG3WSrDxqmWgScWEEXMpBxpx3PgvcX90xoG3gk73wjIURDmeKth4FA48r30QZDnk4YByfsvWcszgjxVDQN1QcdJQZ5RQZ66FGrAwoBN2yBJ1nnxf4EN1JWgzYyjNtcaBr4J2qw7aiPpy1rbyJbAQkCOTWGObQ0DOWHnLcxSmcFM6iRmu/zR4v6choEHwE8LiLDxCxiUQtnMgSbmPKutfcxZQ0Vz6D+Bp9ojVFGEr2jDA6woGliOwgCYk5Nr+DIRllmWFAxEXpkoOYQvRQ0P8Ag3pZUm8NiHAZBvL4Jiyxc8wBBm4xUW/hxzZvaqbB8Gsr7hO9oNAb/jG7pbw5h6jhT+K7LjZ6RKY4q0veAbwKxv2D8pLzCQ9w0ZpASwFwBf5C/4KtNLSeDkHvgzYMw3nFRTQK0Lvta+9k8ph9km/AZe+IYJq7V2xIoVS0m3LOha/PM/J4sAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMThUMTg6NDI6MzgrMDA6MDC7b6X3AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTE4VDE4OjQyOjM4KzAwOjAwyjIdSwAAAABJRU5ErkJggg==" alt="" />
+          <span data-translate="networking-location">Rio de Janeiro, Brazil</span>
+        </li>
+        <li class="networking-item">
+          <a href="https://www.linkedin.com/in/marcelofldev/?locale=en_US" target="_blank">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAABzUlEQVRo3u2ZP0vDQBiHn1QFsf6ZCg624FQcdHFxF2cnRRB0ctLFpV/AT+CsfgAlKDoIDo7dBBe/gJMoKiYiimDrcCmU4y7k0phL5R64oW/f3P1+d+9dmgYcDoejyFQBHwiBds4tBM6Aei/iXywIl9trpMUYvwDiO+1EJ9KLMRACY2mXL2NCYMLUQFsTOwWaQAVYB2o5mfBML5CXsQWsSDnjkZk8ysgYuQNfkzdr00DJwFBTE78DgjQzlAUmBiqa+AgwastAHPIS3iNqXmaXPtkDbUQZzUXflyPxXzYNmB6jHQJE2QykmZmUeImDCQzYQKnVZBNnyQ/wCHz32tGgYf6SIrYKbHV9bgC3Uk4NOEIcuXvABWLvlIAFYAdYI8XdNo6kG6kh5SwqcmYQP8iGY8ZbBj4w3MR5ldADsImYdR3nUY4ReRl4Az4T5PnAZRENgKjvDeAAUXZlTd5hVgNmuQcA9qW8G2BIkTdpMHZuK1AGtqXYPOpT7cmk47wMVFHftacVsVYRDXiG8cIZ+DOcAds4A7ZxBmzT9wb+9SPlu23FXWj/OIszcG1bdRdXaS6qI14u2H438AxMpXVeRTzLBhaEB8BxL+IdDofj7/kFEdlqEqmzKegAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDMtMThUMTg6NDI6NDcrMDA6MDBH4twHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTAzLTE4VDE4OjQyOjQ3KzAwOjAwNr9kuwAAAABJRU5ErkJggg==" alt="" />
+            <span>linkedin.com/in/marcelofldev</span>
+          </a>
+        </li>
+        <li class="networking-item">
+          <a href="https://github.com/hydenz" target="_blank">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAADIklEQVRo3u2Y20tUQRzHPyrdzFKoxUv5WlGhkCX10JUgejQquzxE/0IQRBYVBAoSJSZmvfYqFpQEQXSBoCihx+olSreLRmDXLWt7mFl2nT0zZ845c45B+4UB2d+c7+/7nRln5jdQQgn/N8oc8VQArcBWoAVYAdQDVTL+BUgDz4GnwB3gMfBnpgegEegCRoFswPYG6ASWzoTwFDAAZEIIV1sG6AcWJyX+APDRgXC1TQD74hQ+C7gSg3C1XZK5nKISGE5AfK7dlDmdjXyS4nPtNjDbhYEklo2u9UcVf1BDfAHYBfQB7yMIfAdclFw9mj7tYcWn0O82Kwv6zQM6gM8yNoU4sB4ilt6w/PuFjGVl3w75bQ6rNLnGgUVhDAxoCL9p+jcAG8mfvl6okn0aNPHvmpx9QcU3oj+kJsKMhiV0M/6DgCd2F/p1+5vpU+8KlZJbl7fTlqgC/7tNUwwGmnxyvgbKbYg2+BANxCA+h8s+uVttSI4bCCYJuSNYIkV+N/Nqx9QPvKZkrSHBEOIfLS6MA9cN8RYbA8sMBPdiFJ/DXUNsuY2BegPBWAIGRg2xIm1eBkwH0UxjgY2BKQNBElVTyhAr0uZlwHTS1iVgwLSEi7R5GRg3EGxKwMBmQ+yDjYFXBoJtOKyUPDAf2GKIF2nzMvDAQFAFHInRwFHMA3TfhqQZ83E+CayOQXwz4gEs8h2sHPHoZCJKy4SusAZRnTm5zAGcUD7+BLxUfssAZ4HaCMKXAN3ALx/xWcQdzRq1TC9oeuXv6xDlomrkFuKitRNYaOCtAdqAk4j3URvhWUSlZjofPNGrkFxF1AqN6Av5Z8BcA+ccYMRStPqIEBjViLVeSHRGxnaQL9AL22EL3vaA4sd8ZtWIPQrZV/Kn8XbgEfATccDcwG6aGwIa2B1WfA7nFMLzEfkqAojvjioexNY1VEA6BRyKyGkjfpAA26YfKoFrSoJhYD+wHlEptTk0MEgMLx9lwGmfxC4M9OBw5L2wl+LdyYWBNGLTSAQ1iOc+9fUujIEM4oG3OinxhagDTiFG70mA70aAt4glmUSRVEIJJfyr+AubsTWHiHv2sgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMy0xOFQxODo0Mjo1NSswMDowMBzXzbAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDMtMThUMTg6NDI6NTUrMDA6MDBtinUMAAAAAElFTkSuQmCC" alt="" />
+            <span>github.com/hydenz</span>
+          </a>
+        </li>
+      </ul>
+      <div class="skills-container">
+        <div class="section-title" data-translate="skills">Skills</div>
+        <hr class="separator" />
+        <div class="skills enum-wrap">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Javascript</span>
+          <span>Typescript</span>
+          <span>React</span>
+          <span>Python</span>
+          <span>REST APIs</span>
+          <span>Relational Databases</span>
         </div>
       </div>
-      <div class="info">
-        <div class="info-item">
-          <span class="section-title" data-translate="education"
-            >Education</span
-          >
-          <hr class="separator" />
-          <div class="info-subtitle" data-translate="education-graduation-name">
-            Automation Engineering
-          </div>
-          <div class="info-name">CEFET RJ</div>
-          <div>
-            <i class="date" data-translate="education-graduation-date"
-              >01/2019 - Present</i
-            >
-            <i class="location">Rio de Janeiro</i>
-          </div>
-        </div>
-        <div class="info-item">
-          <span class="section-title" data-translate="work-exp"
-            >Work Experience</span
-          >
-          <hr class="separator" />
-          <div class="info-subtitle" data-translate="work-exp-4-title">
-            React developer @ Fetchly Labs
-          </div>
-          <p class="info-description">
-            As a frontend developer with experience in React.js, I have worked
-            on a payment system where I developed and maintained various
-            features related to the user interface. I have worked on
-            implementing secure payment gateways, managing user accounts and
-            transactions, and improving the overall user experience by creating
-            intuitive and responsive designs.
-          </p>
-          <div>
-            <i class="date" data-translate="work-exp-4-date"
-              >07/2022 - Present</i
-            >
-            <i class="location" data-translate="work-exp-4-location"
-              >Colorado (remote)</i
-            >
-          </div>
-          <div class="info-subtitle" data-translate="work-exp-3-title">
-            React developer @ Personetics
-          </div>
-          <p class="info-description">
-            My work has focused on creating tailor-made solutions that cater to
-            the unique needs of banks and their customers. I have collaborated
-            closely with designers and product managers to ensure that the
-            components I develop align with the overall vision of the product
-            and provide the best user experience possible.
-          </p>
-          <div>
-            <i class="date">11/2021 - 07/2022</i>
-            <i class="location" data-translate="work-exp-3-location"
-              >Tel Aviv (remote)</i
-            >
-          </div>
-          <div class="info-subtitle" data-translate="work-exp-2-title">
-            Frontend development intern @ Nodis Stone Co.
-          </div>
-          <div>
-            <i class="date">08/2021 - 11/2021</i>
-            <i class="location" data-translate="work-exp-2-location"
-              >Rio de Janeiro (remote)</i
-            >
-          </div>
-          <div class="info-subtitle" data-translate="work-exp-1-title">
-            Software development intern @ Grow up Marketing Digital
-          </div>
-          <div>
-            <i class="date">05/2021 - 08/2021</i>
-            <i class="location" data-translate="work-exp-1-location"
-              >Rio de Janeiro (presential)</i
-            >
-          </div>
-        </div>
-        <div class="info-item">
-          <span class="section-title" data-translate="personal-projects"
-            >Personal Projects</span
-          >
-          <hr class="separator" />
-          <div class="project-name">Todo App</div>
-          <a href="https://hydenz.github.io/todo-app/" target="_blank"
-            >hydenz.github.io/todo-app/</a
-          >
-          <div class="project-name">Advice Generator</div>
-          <a href="https://hydenz.github.io/advice-generator/" target="_blank"
-            >hydenz.github.io/advice-generator/</a
-          >
-          <div class="project-name">Bin-2-Dec</div>
-          <a href="https://hydenz.github.io/bin-2-dec/" target="_blank"
-            >hydenz.github.io/bin-2-dec/</a
-          >
+      <div class="languages-container">
+        <div class="section-title" data-translate="languages">Languages</div>
+        <hr class="separator" />
+        <div class="pt" data-translate="languages-pt">Portuguese</div>
+        <i data-translate="languages-native-prof">Native Proficiency</i>
+        <div class="en" data-translate="languages-en">English</div>
+        <i data-translate="languages-prof-prof">Professional Working Proficiency</i>
+      </div>
+      <div class="interests-container">
+        <div class="section-title" data-translate="interests">Interests</div>
+        <hr class="separator" />
+        <div class="interests enum-wrap">
+          <span data-translate="interests-cryptos">Cryptocurrencies</span>
+          <span data-translate="interests-stocks">Stock market</span>
+          <span>Videogames</span>
         </div>
       </div>
     </div>
-    
-    
-    
-    
-  </body>
+    <div class="info">
+      <div class="info-item">
+        <span class="section-title" data-translate="education">Education</span>
+        <hr class="separator" />
+        <div class="info-subtitle" data-translate="education-graduation-name">
+          Automation Engineering
+        </div>
+        <div class="info-name">CEFET RJ</div>
+        <div>
+          <i class="date" data-translate="education-graduation-date">01/2019 - Present</i>
+          <i class="location">Rio de Janeiro</i>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="section-title" data-translate="work-exp">Work Experience</span>
+        <hr class="separator" />
+        <div class="info-subtitle" data-translate="work-exp-5-title">
+          React developer @ Shape Digital
+        </div>
+        <p class="info-description">
+          I had the opportunity to work on an exciting and vital project in the field of oil extraction. I played a key
+          role in the development of an application dedicated to managing human resources on FPSOs (Floating Production,
+          Storage, and Offloading vessels). This application was instrumental in optimizing operations and ensuring the
+          efficient deployment of personnel on these vital offshore platforms.
+        </p>
+        <div>
+          <i class="date" data-translate="work-exp-5-date">11/2022 - Present</i>
+          <i class="location" data-translate="work-exp-5-location">Rio de Janeiro (remote)</i>
+        </div>
+        <div class="info-subtitle" data-translate="work-exp-4-title">
+          React developer @ Fetchly Labs
+        </div>
+        <p class="info-description">
+          As a frontend developer with experience in React.js, I have worked
+          on a payment system where I developed and maintained various
+          features related to the user interface. I have worked on
+          implementing secure payment gateways, managing user accounts and
+          transactions, and improving the overall user experience by creating
+          intuitive and responsive designs.
+        </p>
+        <div>
+          <i class="date" data-translate="work-exp-4-date">07/2022 - 11/2022</i>
+          <i class="location" data-translate="work-exp-4-location">Colorado (remote)</i>
+        </div>
+        <div class="info-subtitle" data-translate="work-exp-3-title">
+          React developer @ Personetics
+        </div>
+        <p class="info-description">
+          My work has focused on creating tailor-made solutions that cater to
+          the unique needs of banks and their customers. I have collaborated
+          closely with designers and product managers to ensure that the
+          components I develop align with the overall vision of the product
+          and provide the best user experience possible.
+        </p>
+        <div>
+          <i class="date">11/2021 - 07/2022</i>
+          <i class="location" data-translate="work-exp-3-location">Tel Aviv (remote)</i>
+        </div>
+        <div class="info-subtitle" data-translate="work-exp-2-title">
+          Frontend development intern @ Nodis Stone Co.
+        </div>
+        <div>
+          <i class="date">08/2021 - 11/2021</i>
+          <i class="location" data-translate="work-exp-2-location">Rio de Janeiro (remote)</i>
+        </div>
+        <div class="info-subtitle" data-translate="work-exp-1-title">
+          Software development intern @ Grow up Marketing Digital
+        </div>
+        <div>
+          <i class="date">05/2021 - 08/2021</i>
+          <i class="location" data-translate="work-exp-1-location">Rio de Janeiro (presential)</i>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="section-title" data-translate="personal-projects">Personal Projects</span>
+        <hr class="separator" />
+        <div class="project-name">Todo App</div>
+        <a href="https://hydenz.github.io/todo-app/" target="_blank">hydenz.github.io/todo-app/</a>
+        <div class="project-name">Advice Generator</div>
+        <a href="https://hydenz.github.io/advice-generator/" target="_blank">hydenz.github.io/advice-generator/</a>
+        <div class="project-name">Bin-2-Dec</div>
+        <a href="https://hydenz.github.io/bin-2-dec/" target="_blank">hydenz.github.io/bin-2-dec/</a>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+</body>
+
 </html>
