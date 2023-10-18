@@ -4,8 +4,8 @@
     "pt-BR": "Desenvolvedor Frontend"
   },
   "header-description": {
-    "en-US": "Highly motivated, self-taught developer seeking to launch a career building web applications and services",
-    "pt-BR": "Desenvolvedor autodidata buscando lançar uma carreira na área de tecnologia construindo aplicações e serviços web"
+    "en-US": "As a React Developer, I prioritize teamwork and code quality to deliver high-performing software solutions. I have a keen eye for detail and am committed to producing maintainable, scalable, and optimized code. With strong communication skills and the ability to work collaboratively in team environments, I am well-equipped to deliver successful projects that exceed client expectations.",
+    "pt-BR": "Como Desenvolvedor React, priorizo o trabalho em equipe e a qualidade do código para entregar soluções de software de alto desempenho. Tenho um olhar crítico para os detalhes e estou comprometido em produzir código mantível, escalável e otimizado. Com habilidades sólidas de comunicação e a capacidade de trabalhar de forma colaborativa em ambientes de equipe, estou bem preparado para entregar projetos bem-sucedidos que superam as expectativas do cliente."
   },
   "networking-location": {
     "en-US": "Rio de Janeiro, Brazil",
@@ -39,37 +39,49 @@
     "en-US": "Work Experience",
     "pt-BR": "Experiências profissionais"
   },
+  "work-exp-5-title": {
+    "en-US": "React developer @ Shape Digital",
+    "pt-BR": "Desenvolvedor React @ Shape Digital"
+  },
+  "work-exp-5-location": {
+    "en-US": "Rio de Janeiro (remote)",
+    "pt-BR": "Rio de Janeiro (remoto)"
+  },
+  "work-exp-5-date": {
+    "en-US": "11/2023 - Present",
+    "pt-BR": "11/2023 - Presente"
+  },
   "work-exp-4-title": {
-    "en-US": "Frontend developer (React)",
-    "pt-BR": "Desenvolvedor Frontend (React)"
+    "en-US": "React developer @ Fetchly Labs",
+    "pt-BR": "Desenvolvedor React @ Fetchly Labs"
   },
   "work-exp-4-location": {
     "en-US": "Colorado (remote)",
     "pt-BR": "Colorado (remoto)"
   },
   "work-exp-4-date": {
-    "en-US": "07/2022 - Present",
-    "pt-BR": "07/2022 - Presente"
+    "en-US": "07/2022 - 11/2022",
+    "pt-BR": "07/2022 - 11/2022"
   },
   "work-exp-3-title": {
-    "en-US": "Frontend developer (React)",
-    "pt-BR": "Desenvolvedor Frontend (React)"
+    "en-US": "React developer @ Personetics",
+    "pt-BR": "Desenvolvedor React @ Personetics"
   },
   "work-exp-3-location": {
     "en-US": "Tel Aviv (remote)",
     "pt-BR": "Tel Aviv (remoto)"
   },
   "work-exp-2-title": {
-    "en-US": "Frontend development intern",
-    "pt-BR": "Estagiário de desenvolvimento frontend"
+    "en-US": "Frontend development intern @ Nodis Stone Co.",
+    "pt-BR": "Estagiário de desenvolvimento frontend @ Nodis Stone Co."
   },
   "work-exp-2-location": {
     "en-US": "Rio de Janeiro (remote)",
     "pt-BR": "Rio de Janeiro (remoto)"
   },
   "work-exp-1-title": {
-    "en-US": "Software development intern",
-    "pt-BR": "Estagiário de desenvolvimento de software"
+    "en-US": "Software development intern @ Grow up Marketing Digital",
+    "pt-BR": "Estagiário de desenvolvimento de software @ Grow up Marketing Digital"
   },
   "work-exp-1-location": {
     "en-US": "Rio de Janeiro (presential)",
